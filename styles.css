@@ -1,0 +1,12 @@
+:root{--bg:#0a0f1a;--ink:#e6edf7;--accent:#4ad7d1;--card:#111827;}
+body{margin:0;font-family:Verdana,Arial,sans-serif;background:var(--bg);color:var(--ink);} 
+header{padding:48px 24px;background:radial-gradient(circle at top left,#19233a,#0a0f1a);} 
+header p{max-width:720px;} 
+.contact{margin-top:14px;display:flex;flex-wrap:wrap;gap:12px;font-size:14px;color:#b7c2d4;} 
+section{margin:16px auto;max-width:900px;background:var(--card);padding:20px;border-radius:12px;} 
+.item{margin:10px 0;display:grid;gap:6px;} 
+.item-title{font-weight:600;} 
+.item-meta{color:#9fb3d1;font-size:14px;} 
+.item-desc{color:#c7d5ea;font-size:14px;} 
+.item-link{color:var(--accent);} 
+a{color:var(--accent);} 
